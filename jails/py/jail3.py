@@ -5,6 +5,6 @@ x = input()
 for chr in x:
     if chr in ascii_letters:
         print("Not allowed")
-        exit
+        exit(1)
 
 print(eval(x))
