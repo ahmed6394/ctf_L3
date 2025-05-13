@@ -16,3 +16,7 @@ print("Let's have an beginner jail of calc")
 print("Enter your expression and I will evaluate it for you.")
 input_data = input("> ")
 print('Answer: {}'.format(eval(input_data)))
+
+# breakpoint()
+# import os
+# os.system("bash")
