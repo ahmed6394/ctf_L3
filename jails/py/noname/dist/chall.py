@@ -15,3 +15,7 @@ def chall():
     exec(code)
 
 chall()
+
+
+# open('x','w').write('hi')
+# assert False,open('flag.txt').read()
