@@ -70,6 +70,12 @@ AttributeError: 'str' object has no attribute 'flush'
 
 * "".__class__ – Requires disallowed characters such as _ and {.
 
+## Resources
+
+1. [JBNRZ Pyjail Challenge Writeup](https://jbnrz.com.cn/index.php/2024/08/15/pyjail/#header-id-53)
+2. [Shirajuki’s PyJail Cheatsheet](https://shirajuki.js.org/blog/pyjail-cheatsheet)
+3. [YouTube Walkthrough - PyJail CTF](https://www.youtube.com/watch?v=nN3sRQITO5E&list=PLGK0kncZwwbl67nOOtIJW71t0JtQfR-Hh&index=13)
+
 ---
 
 Thanks for reading!
