@@ -7,5 +7,5 @@ class flag_level5:
     def __init__(self, flag: str):
         setattr(self, 'flag_level5', secert_flag(flag))
 def get_flag():
-    with open('flag') as f:
+    with open('flag.txt') as f:
         return flag_level5(f.read())

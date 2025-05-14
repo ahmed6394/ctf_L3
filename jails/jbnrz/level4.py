@@ -31,3 +31,6 @@ while True:
         print('Answer: {}'.format(eval_func(input_data)))
     except Exception as e:
         print(e)
+
+# open(bytes([102, 108, 97, 103, 46, 116, 120, 116]).decode()).read()
+# used str2i tool to convert "flag.txt" into int

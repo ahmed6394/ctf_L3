@@ -20,3 +20,7 @@ print('Answer: {}'.format(eval(input_data)))
 # breakpoint()
 # import os
 # os.system("bash")
+#----------------------------------------------
+# __import__('os').system('cat flag')
+#----------------------------------------------
+# open('flag').read()

@@ -24,3 +24,7 @@ def repl():
     exec(complie_code, my_global_dict)
 if __name__ == '__main__':
     main()
+
+# breakpoint()
+# import os
+# os.system("cat flag.tx")

@@ -34,3 +34,6 @@ if filter(input_data):
     print("Oh hacker!")
     exit(0)
 print('Answer: {}'.format(my_eval_func_0002321(input_data)))
+
+# open(bytes([102, 108, 97, 103, 46, 116, 120, 116]).decode()).read()
+# used str2i tool to convert "flag.txt" into int

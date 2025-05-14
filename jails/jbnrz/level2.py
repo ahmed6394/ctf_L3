@@ -19,3 +19,10 @@ if len(input_data)>13:
     print("Oh hacker!")
     exit(0)
 print('Answer: {}'.format(eval(input_data)))
+
+# breakpoint()
+# import os
+# os.system("bash")
+#---------------------------
+# eval(input())
+# __import__("os").system("cat flag")

